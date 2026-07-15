@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<sdf version="1.9">
+  <model name="tomato_plant">
+    <static>true</static>
+    <link name="link">
+      <collision name="collision">
+        <geometry>
+          <box><size>0.3 0.3 1.2</size></box>
+        </geometry>
+      </collision>
+
+      <visual name="branch">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_plant/meshes/tomato.dae</uri>
+            <submesh><name>Branch1</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0 1.0</diffuse>
+          <pbr><metal><albedo_map>model://tomato_plant/materials/textures/AG15brn1.png</albedo_map></metal></pbr>
+        </material>
+      </visual>
+
+      <visual name="leaf1">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_plant/meshes/tomato.dae</uri>
+            <submesh><name>Leaf1</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0 1.0</diffuse>
+          <pbr><metal><albedo_map>model://tomato_plant/materials/textures/AG15lef1.png</albedo_map></metal></pbr>
+        </material>
+      </visual>
+
+      <visual name="leaf2">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_plant/meshes/tomato.dae</uri>
+            <submesh><name>Leaf2</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0 1.0</diffuse>
+          <pbr><metal><albedo_map>model://tomato_plant/materials/textures/AG15lef2.png</albedo_map></metal></pbr>
+        </material>
+      </visual>
+
+      <visual name="fruit1">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_plant/meshes/tomato.dae</uri>
+            <submesh><name>Fruit1</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0 1.0</diffuse>
+          <pbr><metal><albedo_map>model://tomato_plant/materials/textures/AG15frt1.png</albedo_map></metal></pbr>
+        </material>
+      </visual>
+
+      <visual name="fruit2">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_plant/meshes/tomato.dae</uri>
+            <submesh><name>Fruit2</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0 1.0</diffuse>
+          <pbr><metal><albedo_map>model://tomato_plant/materials/textures/AG15frt2.png</albedo_map></metal></pbr>
+        </material>
+      </visual>
+
+      <visual name="fruit3">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_plant/meshes/tomato.dae</uri>
+            <submesh><name>Fruit3</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0 1.0</diffuse>
+          <pbr><metal><albedo_map>model://tomato_plant/materials/textures/AG15frt3.png</albedo_map></metal></pbr>
+        </material>
+      </visual>
+
+      <visual name="fruit4">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_plant/meshes/tomato.dae</uri>
+            <submesh><name>Fruit4</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0 1.0</diffuse>
+          <pbr><metal><albedo_map>model://tomato_plant/materials/textures/AG15frt4.png</albedo_map></metal></pbr>
+        </material>
+      </visual>
+
+      <visual name="blossom1">
+        <geometry>
+          <mesh>
+            <uri>model://tomato_plant/meshes/tomato.dae</uri>
+            <submesh><name>Blossom1</name></submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0 1.0</diffuse>
+          <pbr><metal><albedo_map>model://tomato_plant/materials/textures/AG15blo1.png</albedo_map></metal></pbr>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>
