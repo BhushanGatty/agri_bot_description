@@ -4,7 +4,7 @@ This repository contains the ROS 2 Jazzy and Gazebo Harmonic digital twin simula
 
 ##  Simulation Demo
 
-High fedelity agriculture Digital twin environment in gazebo harmonic.(*The live simulation animation gifs will be later )
+High fedelity agriculture Digital twin environment in gazebo harmonic.(*The live simulation animation gifs will be uploaded later)
 <img width="1422" height="914" alt="WhatsApp Image 2026-07-16 at 1 42 00 AM" src="https://github.com/user-attachments/assets/1e0144eb-a3b3-41fb-b775-2f14f28aa5fc" />
 
 Real time edge perception pipeline and spacial coordinates visualization mapped within ros2 rviz interface
