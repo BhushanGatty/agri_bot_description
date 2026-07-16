@@ -3,8 +3,8 @@
 This repository contains the ROS 2 Jazzy and Gazebo Harmonic digital twin simulation environment for **Smart Harvest**, an autonomous crop-harvesting platform featuring a 5-DOF manipulator arm and a differential drive chassis.
 
 ##  Simulation Demo
-*The live simulation animations will be updated below upon final validation.*
-High fedelity agriculture Digital twin environment in gazebo harmonic.
+
+High fedelity agriculture Digital twin environment in gazebo harmonic.(*The live simulation animation gifs will be later )
 <img width="1422" height="914" alt="WhatsApp Image 2026-07-16 at 1 42 00 AM" src="https://github.com/user-attachments/assets/1e0144eb-a3b3-41fb-b775-2f14f28aa5fc" />
 
 Real time edge perception pipeline and spacial coordinates visualization mapped within ros2 rviz interface
