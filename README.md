@@ -4,10 +4,11 @@ This repository contains the ROS 2 Jazzy and Gazebo Harmonic digital twin simula
 
 ## 🚀 Simulation Demo
 *The live simulation animations will be updated below upon final validation.*
+<img width="1422" height="914" alt="WhatsApp Image 2026-07-16 at 1 42 00 AM" src="https://github.com/user-attachments/assets/1e0144eb-a3b3-41fb-b775-2f14f28aa5fc" />
 
-| Aisle Navigation Loop | 5-DOF Manipulation & Grasp Sequence |
-| :---: | :---: |
-| ![Aisle Navigation Placeholder](https://via.placeholder.com/400x250.png?text=Aisle+Navigation+GIF+Coming+Soon) | ![Grasp Sequence Placeholder](https://via.placeholder.com/400x250.png?text=Grasp+Sequence+GIF+Coming+Soon) |
+Real time edge perception pipeline and spacial coordinates visualization mapped within ros2 rviz interface
+<img width="1405" height="796" alt="Screenshot 2026-07-15 230748" src="https://github.com/user-attachments/assets/77f2e162-aae9-4200-93ea-cf1676874b41" />
+
 
 ## 🛠️ System Overview
 - **Chassis:** 4-wheel differential drive platform optimized for narrow crop centerlines.
